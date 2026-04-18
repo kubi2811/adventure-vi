@@ -40,7 +40,7 @@
           "id": "c2c38f2c-6fc1-4a8e-8e20-44b2cab05adb",
           "scriptName": "GiaoDien (VI)",
           "findRegex": "/.+/s",
-          "replaceString": "```\n<body>\n<script>\nfetch(\"https://kubi2811.github.io/adventure/?v=\" + Date.now())\n  .then(r => r.text())\n  .then(html => $(\"body\").html(html))\n  .catch(e => $(\"body\").html('<div style=\"color:#ffdf80;padding:40px;font-family:Cinzel,serif;background:#0a0b0a;\"><h1>Lỗi tải giao diện</h1><p>Vui lòng kiểm tra kết nối internet.</p></div>'));\n</script>\n</body>\n```",
+          "replaceString": "```\n<body>\n<script>\nfetch(\"https://kubi2811.github.io/adventure-vi/?v=\" + Date.now())\n  .then(r => r.text())\n  .then(html => $(\"body\").html(html))\n  .catch(e => $(\"body\").html('<div style=\"color:#ffdf80;padding:40px;font-family:Cinzel,serif;background:#0a0b0a;\"><h1>Lỗi tải giao diện</h1><p>Vui lòng kiểm tra kết nối internet.</p></div>'));\n</script>\n</body>\n```",
           "trimStrings": [],
           "placement": [
             1,
